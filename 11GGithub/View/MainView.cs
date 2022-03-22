@@ -33,7 +33,7 @@ namespace _11GGithub.View
             string b = txtB.Text;
 
             lblOutput.Text = (a + b);
-            lblOutput.Text = "MAIKA MU DAEBA";
+            lblOutput.Text = "My name is Viktor";
         }
 
         private void btn6_Click(object sender, EventArgs e)
