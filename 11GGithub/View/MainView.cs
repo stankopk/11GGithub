@@ -41,10 +41,10 @@ namespace _11GGithub.View
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            double a = Int32.Parse(txtA.Text);
-            double b = Int32.Parse(txtB.Text);
+            double a = Double.Parse(txtA.Text);
+            double b = Double.Parse(txtB.Text);
             double c = a + b;
-            lblOutput.Text = c.ToString()
+            lblOutput.Text = c.ToString();
         }
 
         private void btn8_Click(object sender, EventArgs e)
