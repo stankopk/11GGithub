@@ -49,7 +49,9 @@ namespace _11GGithub.View
 
         private void btn8_Click(object sender, EventArgs e)
         {
-
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            lblOutput.Text = Convert.ToString(a * b);
         }
 
         private void btn9_Click(object sender, EventArgs e)
