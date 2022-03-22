@@ -63,7 +63,9 @@ namespace _11GGithub.View
 
         private void btnPK_Click(object sender, EventArgs e)
         {
-            lblOutput.Text = txtA.Text + txtB.Text;
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtB.Text);
+            lblOutput.Text = Convert.ToString(a * b);
         }
     }
 }
