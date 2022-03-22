@@ -85,11 +85,12 @@ namespace _11GGithub.View
             // 
             this.lblOutput.AutoSize = true;
             this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOutput.Location = new System.Drawing.Point(210, 27);
+            this.lblOutput.Location = new System.Drawing.Point(210, 32);
             this.lblOutput.Name = "lblOutput";
             this.lblOutput.Size = new System.Drawing.Size(210, 69);
             this.lblOutput.TabIndex = 4;
             this.lblOutput.Text = "Output";
+            this.lblOutput.Click += new System.EventHandler(this.lblOutput_Click);
             // 
             // btn1
             // 

@@ -61,7 +61,10 @@ namespace _11GGithub.View
 
         private void btn11_Click(object sender, EventArgs e)
         {
-
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtA.Text);
+            int lblOutput = (a + b);
+            
         }
         //function for minus
         private void btn12_Click(object sender, EventArgs e)
@@ -75,6 +78,11 @@ namespace _11GGithub.View
         private void btnPK_Click(object sender, EventArgs e)
         {
             lblOutput.Text = txtA.Text + txtB.Text;
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
