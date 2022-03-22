@@ -188,6 +188,7 @@ namespace _11GGithub.View
             this.btnPK.TabIndex = 13;
             this.btnPK.Text = "PK";
             this.btnPK.UseVisualStyleBackColor = true;
+            this.btnPK.Click += new System.EventHandler(this.btnPK_Click);
             // 
             // MainView
             // 
