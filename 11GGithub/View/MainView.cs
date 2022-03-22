@@ -51,7 +51,7 @@ namespace _11GGithub.View
         {
             int a = int.Parse(txtA.Text);
             int b = int.Parse(txtA.Text);
-            int lblOutput = (a + b);
+            lblOutput.Text = (a + b).ToString();
             
         }
 
