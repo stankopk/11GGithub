@@ -37,7 +37,7 @@ namespace _11GGithub.View
             double a = Int32.Parse(txtA.Text);
             double b = Int32.Parse(txtB.Text);
             double c = a + b;
-            lblOutput.Text = ( " " + c);
+            lblOutput.Text = c.ToString()
         }
 
         private void btn8_Click(object sender, EventArgs e)
