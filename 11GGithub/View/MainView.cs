@@ -1,4 +1,4 @@
-﻿using System; 
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +28,7 @@ namespace _11GGithub.View
             double a = double.Parse(txtA.Text);
             double b = double.Parse(txtB.Text);
             double result = Convert.ToDouble(Math.Pow(a,b));
-            lblOutput.Text = (" " + result);
+            lblOutput.Text = result.ToString();
         }
 
         private void btn3_Click(object sender, EventArgs e)
