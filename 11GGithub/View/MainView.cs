@@ -22,7 +22,7 @@ namespace _11GGithub.View
             double a = Int32.Parse(txtA.Text);
             double b = Int32.Parse(txtB.Text);
             double output = a / b;
-            lblOutput.Text = (" " + output);
+            lblOutput.Text = output.ToString();
         }
 
         private void btn2_Click(object sender, EventArgs e)
