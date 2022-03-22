@@ -29,7 +29,11 @@ namespace _11GGithub.View
 
         private void btn3_Click(object sender, EventArgs e)
         {
+            string a = txtA.Text;
+            string b = txtB.Text;
 
+            lblOutput.Text = (a + b);
+            lblOutput.Text = "MAIKA MU DAEBA";
         }
 
         private void btn6_Click(object sender, EventArgs e)
