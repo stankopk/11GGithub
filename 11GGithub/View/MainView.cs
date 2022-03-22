@@ -49,10 +49,18 @@ namespace _11GGithub.View
 
         private void btn11_Click(object sender, EventArgs e)
         {
-
+            int a = int.Parse(txtA.Text);
+            int b = int.Parse(txtA.Text);
+            int output = (a + b);
+            
         }
 
         private void btn12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
         {
 
         }
