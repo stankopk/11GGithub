@@ -56,5 +56,10 @@ namespace _11GGithub.View
         {
 
         }
+
+        private void btnPK_Click(object sender, EventArgs e)
+        {
+            lblOutput.Text = txtA.Text + txtB.Text;
+        }
     }
 }
