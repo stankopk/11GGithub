@@ -54,10 +54,7 @@ namespace _11GGithub.View
 
         private void btn12_Click(object sender, EventArgs e)
         {
-            int a = Int32.Parse(txtA.Text);
-            int b = Int32.Parse(txtB.Text);
-            int output = a - b;
-            lblOutput.Text = (" " + output);
+
         }
     }
 }
