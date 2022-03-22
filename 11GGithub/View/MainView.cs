@@ -19,7 +19,10 @@ namespace _11GGithub.View
 
         private void btn1_Click(object sender, EventArgs e)
         {
-
+            double a = Int32.Parse(txtA.Text);
+            double b = Int32.Parse(txtB.Text);
+            double output = a / b;
+            lblOutput.Text = output.ToString();
         }
 
         //UMNOJENIE NA A VURHU B
