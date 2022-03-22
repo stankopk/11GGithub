@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System; 
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,9 +22,13 @@ namespace _11GGithub.View
 
         }
 
+        //UMNOJENIE NA A VURHU B
         private void btn2_Click(object sender, EventArgs e)
         {
-
+            double a = double.Parse(txtA.Text);
+            double b = double.Parse(txtB.Text);
+            double result = Convert.ToDouble(Math.Pow(a,b));
+            lblOutput.Text = (" " + result);
         }
 
         private void btn3_Click(object sender, EventArgs e)
