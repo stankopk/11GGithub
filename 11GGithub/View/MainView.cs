@@ -34,7 +34,10 @@ namespace _11GGithub.View
 
         private void btn6_Click(object sender, EventArgs e)
         {
-            lblOutput.Text = txtA.Text + txtB.Text;
+            int a = Int32.Parse(txtA.Text);
+            int b = Int32.Parse(txtB.Text);
+            int c = a + b;
+            lblOutput.Text = ( " " + c);
         }
 
         private void btn8_Click(object sender, EventArgs e)
